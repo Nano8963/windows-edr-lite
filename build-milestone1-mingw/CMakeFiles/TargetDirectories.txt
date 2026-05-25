@@ -1,0 +1,3 @@
+A:/Github/Repositories/windows-edr-lite/build-milestone1-mingw/CMakeFiles/windows_edr_lite.dir
+A:/Github/Repositories/windows-edr-lite/build-milestone1-mingw/CMakeFiles/edit_cache.dir
+A:/Github/Repositories/windows-edr-lite/build-milestone1-mingw/CMakeFiles/rebuild_cache.dir

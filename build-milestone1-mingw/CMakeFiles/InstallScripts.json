@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"A:/Github/Repositories/windows-edr-lite/build-milestone1-mingw/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
