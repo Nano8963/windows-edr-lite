@@ -176,6 +176,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/process_monitor.obj: src/process_monitor.c.obj
+.PHONY : src/process_monitor.obj
+
+# target to build an object file
+src/process_monitor.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj
+.PHONY : src/process_monitor.c.obj
+
+src/process_monitor.i: src/process_monitor.c.i
+.PHONY : src/process_monitor.i
+
+# target to preprocess a source file
+src/process_monitor.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.i
+.PHONY : src/process_monitor.c.i
+
+src/process_monitor.s: src/process_monitor.c.s
+.PHONY : src/process_monitor.s
+
+# target to generate assembly for a file
+src/process_monitor.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.s
+.PHONY : src/process_monitor.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/process_monitor.obj
+	@echo ... src/process_monitor.i
+	@echo ... src/process_monitor.s
 .PHONY : help
 
 

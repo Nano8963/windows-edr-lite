@@ -8,7 +8,9 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 add_executable(windows_edr_lite
     src/main.c
     src/logger.c
+    src/process_monitor.c
     include/logger.h
+    include/process_monitor.h
 )
 
 target_include_directories(windows_edr_lite PRIVATE

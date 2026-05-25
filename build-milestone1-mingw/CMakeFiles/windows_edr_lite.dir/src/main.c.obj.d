@@ -11,4 +11,5 @@ CMakeFiles/windows_edr_lite.dir/src/main.c.obj: \
  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_off_t.h \
  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/swprintf.inl \
  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
- A:/Github/Repositories/windows-edr-lite/include/logger.h
+ A:/Github/Repositories/windows-edr-lite/include/logger.h \
+ A:/Github/Repositories/windows-edr-lite/include/process_monitor.h
