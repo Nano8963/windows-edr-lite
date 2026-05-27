@@ -1,13 +1,19 @@
 #include "process_monitor.h"
 
 #include <stdio.h>
-#include <windows.h>
 #include <tlhelp32.h>
 
 #include "logger.h"
 
-void list_running_processes(void)
+int get_running_processes(ProcessInfo processes[], int max_processes)
 {
+    int process_count = 0;
+
+    if (processes == NULL || max_processes <= 0) {
+        log_error("Invalid process array provided.");
+        return 0;
+    }
+
     /*
      * CreateToolhelp32Snapshot asks Windows for a list of
      * processes. TH32CS_SNAPPROCESS includes all processes in the system in the snapshot.
@@ -16,7 +22,7 @@ void list_running_processes(void)
 
     if (snapshot == INVALID_HANDLE_VALUE) {
         log_error("Could not create a process snapshot.");
-        return;
+        return 0;
     }
 
     /*
@@ -33,28 +39,35 @@ void list_running_processes(void)
     if (!Process32First(snapshot, &process_entry)) {
         log_error("Could not read the first process from the snapshot.");
         CloseHandle(snapshot);
-        return;
+        return 0;
     }
 
-    printf("\nRunning Processes\n");
-    printf("------------------------------------------------------------\n");
-    printf("%-32s %-10s %-10s\n", "Process Name", "PID", "Parent PID");
-    printf("------------------------------------------------------------\n");
-
     /*
-     * This loop prints the current process entry, then asks Windows for
-     * the next one. Process32Next returns FALSE when there are no more.
+     * This loop copies each Windows process entry into our own beginner-friendly
+     * ProcessInfo struct array. The loop stops when the array is full or when
+     * Windows reports that there are no more processes.
      */
     do {
-        printf("%-32s %-10lu %-10lu\n",
-               process_entry.szExeFile,
-               process_entry.th32ProcessID,
-               process_entry.th32ParentProcessID);
-    } while (Process32Next(snapshot, &process_entry));
+        processes[process_count].pid = process_entry.th32ProcessID;
+        processes[process_count].parent_pid = process_entry.th32ParentProcessID;
+
+        /*
+         * snprintf safely copies the executable name into exe_name.
+         * MAX_PATH is the size of the destination buffer.
+         */
+        snprintf(processes[process_count].exe_name,
+                 MAX_PATH,
+                 "%s",
+                 process_entry.szExeFile);
+
+        process_count++;
+    } while (process_count < max_processes && Process32Next(snapshot, &process_entry));
 
     /*
      * Every successful CreateToolhelp32Snapshot call gives us a handle.
      * CloseHandle releases it when we are done.
      */
     CloseHandle(snapshot);
+
+    return process_count;
 }

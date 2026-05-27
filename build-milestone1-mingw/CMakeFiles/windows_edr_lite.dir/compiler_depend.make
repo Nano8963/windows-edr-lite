@@ -18,17 +18,177 @@ CMakeFiles/windows_edr_lite.dir/src/logger.c.obj: A:/Github/Repositories/windows
 CMakeFiles/windows_edr_lite.dir/src/main.c.obj: A:/Github/Repositories/windows-edr-lite/src/main.c \
   A:/Github/Repositories/windows-edr-lite/include/logger.h \
   A:/Github/Repositories/windows-edr-lite/include/process_monitor.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_bsd_types.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_off_t.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_unicode.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_timeval.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/apiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/apisetcconv.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/basetsd.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/bcrypt.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/bemapiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/cderr.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/cguid.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/combaseapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/commdlg.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/concurrencysal.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/consoleapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/consoleapi2.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/consoleapi3.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/corecrt.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/corecrt_stdio_config.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/corecrt_wctype.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/corecrt_wstdlib.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/crtdefs.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ctype.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/datetimeapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/dde.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ddeml.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/debugapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/dlgs.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/dpapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/driverspecs.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/errhandlingapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/errno.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/excpt.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/fibersapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/fileapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/fltwinerror.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/guiddef.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/handleapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/heapapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/imm.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/inaddr.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/interlockedapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ioapiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/jobapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/joystickapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ktmtypes.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/libloaderapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/limits.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/lzexpand.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/malloc.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mciapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mcx.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/memoryapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/minwinbase.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/minwindef.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mmeapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mmiscapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mmiscapi2.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mmsyscom.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mmsystem.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/msxml.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/namedpipeapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/namespaceapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/nb30.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ncrypt.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/oaidl.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/objbase.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/objidl.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/objidlbase.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ole2.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/oleauto.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/oleidl.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/playsoundapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/poppack.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/processenv.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/processthreadsapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/processtopologyapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/profileapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/propidl.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/prsht.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_fd_types.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_ip_types.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_socket_types.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_wsadata.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/_xmitfile.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/intrin-impl.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/pshpack1.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/pshpack2.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/pshpack4.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/pshpack8.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/realtimeapiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/reason.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpc.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcasync.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcdce.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcdcep.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcndr.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcnsi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcnsip.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcnterr.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/rpcsal.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sal.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sdkddkver.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sec_api/stralign_s.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sec_api/string_s.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/securityappcontainer.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/securitybaseapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/servprov.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/shellapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/specstrings.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/stdarg.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/stdio.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/stdlib.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/stralign.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/string.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/stringapiset.h \
   C:/PATH_Programs/mingw32/i686-w64-mingw32/include/swprintf.inl \
-  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/vadefs.h
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/synchapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sysinfoapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/systemtopologyapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/threadpoolapiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/threadpoollegacyapiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/timeapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/timezoneapi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/tvout.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/unknwn.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/unknwnbase.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/urlmon.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/utilapiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/vadefs.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/virtdisk.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winapifamily.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winbase.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wincon.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wincontypes.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wincrypt.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/windef.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/windows.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winefs.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winerror.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wingdi.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winioctl.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winnetwk.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winnls.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winnt.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winperf.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winreg.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winscard.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winsmcrd.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winsock.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winspool.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winsvc.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winuser.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/winver.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wnnc.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wow64apiset.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wtypes.h \
+  C:/PATH_Programs/mingw32/i686-w64-mingw32/include/wtypesbase.h \
+  C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/limits.h \
+  C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/syslimits.h
 
 CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj: A:/Github/Repositories/windows-edr-lite/src/process_monitor.c \
   A:/Github/Repositories/windows-edr-lite/include/logger.h \
@@ -227,6 +387,8 @@ C:/PATH_Programs/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw.h:
 
+C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mciapi.h:
+
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_mac.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_off_t.h:
@@ -241,11 +403,11 @@ C:/PATH_Programs/mingw32/i686-w64-mingw32/include/driverspecs.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ddeml.h:
 
+A:/Github/Repositories/windows-edr-lite/src/process_monitor.c:
+
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/psdk_inc/intrin-impl.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/corecrt_stdio_config.h:
-
-A:/Github/Repositories/windows-edr-lite/src/process_monitor.c:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/_mingw_unicode.h:
 
@@ -368,8 +530,6 @@ C:/PATH_Programs/mingw32/i686-w64-mingw32/include/ktmtypes.h:
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/limits.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/lzexpand.h:
-
-C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mciapi.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/mcx.h:
 
@@ -513,8 +673,6 @@ C:/PATH_Programs/mingw32/i686-w64-mingw32/include/timeapi.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/timezoneapi.h:
 
-C:/PATH_Programs/mingw32/i686-w64-mingw32/include/tlhelp32.h:
-
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/tvout.h:
 
 C:/PATH_Programs/mingw32/i686-w64-mingw32/include/urlmon.h:
@@ -560,3 +718,5 @@ C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/limits.h:
 C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/mm_malloc.h:
 
 C:/PATH_Programs/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/include/syslimits.h:
+
+C:/PATH_Programs/mingw32/i686-w64-mingw32/include/tlhelp32.h:

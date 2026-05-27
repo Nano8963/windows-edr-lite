@@ -1,7 +1,10 @@
 #include <stdio.h>
 
+#include "detection_engine.h"
 #include "logger.h"
 #include "process_monitor.h"
+
+#define MAX_PROCESS_RECORDS 1024
 
 static void print_startup_banner(void)
 {
@@ -15,14 +18,39 @@ static void print_menu(void)
 {
     printf("\nMenu\n");
     printf("1. List running processes\n");
+    printf("2. Run detection scan\n");
     printf("0. Exit\n");
     printf("Select an option: ");
+}
+
+static void print_processes(const ProcessInfo processes[], int process_count)
+{
+    int i;
+
+    printf("\nRunning Processes\n");
+    printf("------------------------------------------------------------\n");
+    printf("%-32s %-10s %-10s\n", "Process Name", "PID", "Parent PID");
+    printf("------------------------------------------------------------\n");
+
+    /*
+     * The process monitor collected the data.
+     * This function is only responsible for displaying it.
+     */
+    for (i = 0; i < process_count; i++) {
+        printf("%-32s %-10lu %-10lu\n",
+               processes[i].exe_name,
+               processes[i].pid,
+               processes[i].parent_pid);
+    }
+
+    printf("\nTotal processes found: %d\n", process_count);
 }
 
 int main(void)
 {
     char input[32];
     int choice = -1;
+    ProcessInfo processes[MAX_PROCESS_RECORDS];
 
     print_startup_banner();
     log_info("Application started.");
@@ -36,7 +64,6 @@ int main(void)
 
         /*
          * If fgets returns NULL, input was closed or an input error happened.
-         * Treat that like a clean exit instead of looping forever.
          */
         if (fgets(input, sizeof(input), stdin) == NULL) {
             printf("\n");
@@ -46,7 +73,7 @@ int main(void)
 
         /*
          * sscanf converts the text line into an integer menu choice.
-         * If conversion fails, the user typed something that is not a number.
+         * If conversion fails, a number was not entered.
          */
         if (sscanf(input, "%d", &choice) != 1) {
             log_warn("Invalid input. Please enter a number.");
@@ -55,7 +82,13 @@ int main(void)
         }
 
         if (choice == 1) {
-            list_running_processes();
+            int process_count = get_running_processes(processes, MAX_PROCESS_RECORDS);
+            print_processes(processes, process_count);
+        } else if (choice == 2) {
+            int process_count = get_running_processes(processes, MAX_PROCESS_RECORDS);
+            int alert_count = run_detection_rules(processes, process_count);
+
+            printf("Detection scan complete. Alerts found: %d\n", alert_count);
         } else if (choice == 0) {
             log_info("Exiting application.");
         } else {

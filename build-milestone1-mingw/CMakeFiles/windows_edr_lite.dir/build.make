@@ -86,11 +86,26 @@ CMakeFiles/windows_edr_lite.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/windows_edr_lite.dir/src/main.c.s"
 	C:\PATH_Programs\mingw32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S A:\Github\Repositories\windows-edr-lite\src\main.c -o CMakeFiles\windows_edr_lite.dir\src\main.c.s
 
+CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj: CMakeFiles/windows_edr_lite.dir/flags.make
+CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj: CMakeFiles/windows_edr_lite.dir/includes_C.rsp
+CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj: A:/Github/Repositories/windows-edr-lite/src/detection_engine.c
+CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj: CMakeFiles/windows_edr_lite.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj"
+	C:\PATH_Programs\mingw32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj -MF CMakeFiles\windows_edr_lite.dir\src\detection_engine.c.obj.d -o CMakeFiles\windows_edr_lite.dir\src\detection_engine.c.obj -c A:\Github\Repositories\windows-edr-lite\src\detection_engine.c
+
+CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.i"
+	C:\PATH_Programs\mingw32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E A:\Github\Repositories\windows-edr-lite\src\detection_engine.c > CMakeFiles\windows_edr_lite.dir\src\detection_engine.c.i
+
+CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.s"
+	C:\PATH_Programs\mingw32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S A:\Github\Repositories\windows-edr-lite\src\detection_engine.c -o CMakeFiles\windows_edr_lite.dir\src\detection_engine.c.s
+
 CMakeFiles/windows_edr_lite.dir/src/logger.c.obj: CMakeFiles/windows_edr_lite.dir/flags.make
 CMakeFiles/windows_edr_lite.dir/src/logger.c.obj: CMakeFiles/windows_edr_lite.dir/includes_C.rsp
 CMakeFiles/windows_edr_lite.dir/src/logger.c.obj: A:/Github/Repositories/windows-edr-lite/src/logger.c
 CMakeFiles/windows_edr_lite.dir/src/logger.c.obj: CMakeFiles/windows_edr_lite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/windows_edr_lite.dir/src/logger.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/windows_edr_lite.dir/src/logger.c.obj"
 	C:\PATH_Programs\mingw32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/windows_edr_lite.dir/src/logger.c.obj -MF CMakeFiles\windows_edr_lite.dir\src\logger.c.obj.d -o CMakeFiles\windows_edr_lite.dir\src\logger.c.obj -c A:\Github\Repositories\windows-edr-lite\src\logger.c
 
 CMakeFiles/windows_edr_lite.dir/src/logger.c.i: cmake_force
@@ -105,7 +120,7 @@ CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj: CMakeFiles/windows_ed
 CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj: CMakeFiles/windows_edr_lite.dir/includes_C.rsp
 CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj: A:/Github/Repositories/windows-edr-lite/src/process_monitor.c
 CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj: CMakeFiles/windows_edr_lite.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj"
 	C:\PATH_Programs\mingw32\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj -MF CMakeFiles\windows_edr_lite.dir\src\process_monitor.c.obj.d -o CMakeFiles\windows_edr_lite.dir\src\process_monitor.c.obj -c A:\Github\Repositories\windows-edr-lite\src\process_monitor.c
 
 CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.i: cmake_force
@@ -119,6 +134,7 @@ CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.s: cmake_force
 # Object files for target windows_edr_lite
 windows_edr_lite_OBJECTS = \
 "CMakeFiles/windows_edr_lite.dir/src/main.c.obj" \
+"CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj" \
 "CMakeFiles/windows_edr_lite.dir/src/logger.c.obj" \
 "CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj"
 
@@ -126,13 +142,14 @@ windows_edr_lite_OBJECTS = \
 windows_edr_lite_EXTERNAL_OBJECTS =
 
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/src/main.c.obj
+windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/src/logger.c.obj
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/src/process_monitor.c.obj
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/build.make
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/linkLibs.rsp
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/objects1.rsp
 windows_edr_lite.exe: CMakeFiles/windows_edr_lite.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable windows_edr_lite.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=A:\Github\Repositories\windows-edr-lite\build-milestone1-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable windows_edr_lite.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\windows_edr_lite.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

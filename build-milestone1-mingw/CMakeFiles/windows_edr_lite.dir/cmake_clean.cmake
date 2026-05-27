@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj"
+  "CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj.d"
   "CMakeFiles/windows_edr_lite.dir/src/logger.c.obj"
   "CMakeFiles/windows_edr_lite.dir/src/logger.c.obj.d"
   "CMakeFiles/windows_edr_lite.dir/src/main.c.obj"

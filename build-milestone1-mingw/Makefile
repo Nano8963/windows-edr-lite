@@ -128,6 +128,30 @@ windows_edr_lite/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/build
 .PHONY : windows_edr_lite/fast
 
+src/detection_engine.obj: src/detection_engine.c.obj
+.PHONY : src/detection_engine.obj
+
+# target to build an object file
+src/detection_engine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.obj
+.PHONY : src/detection_engine.c.obj
+
+src/detection_engine.i: src/detection_engine.c.i
+.PHONY : src/detection_engine.i
+
+# target to preprocess a source file
+src/detection_engine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.i
+.PHONY : src/detection_engine.c.i
+
+src/detection_engine.s: src/detection_engine.c.s
+.PHONY : src/detection_engine.s
+
+# target to generate assembly for a file
+src/detection_engine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\windows_edr_lite.dir\build.make CMakeFiles/windows_edr_lite.dir/src/detection_engine.c.s
+.PHONY : src/detection_engine.c.s
+
 src/logger.obj: src/logger.c.obj
 .PHONY : src/logger.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... windows_edr_lite
+	@echo ... src/detection_engine.obj
+	@echo ... src/detection_engine.i
+	@echo ... src/detection_engine.s
 	@echo ... src/logger.obj
 	@echo ... src/logger.i
 	@echo ... src/logger.s
