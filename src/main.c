@@ -33,7 +33,7 @@ static void print_processes(const ProcessInfo processes[], int process_count)
     printf("------------------------------------------------------------\n");
 
     /*
-     * The process monitor collected the data.
+     * The process monitor collects the data.
      * This function displays it.
      */
     for (i = 0; i < process_count; i++) {
