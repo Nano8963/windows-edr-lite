@@ -10,7 +10,7 @@ static void print_startup_banner(void)
 {
     printf("========================================\n");
     printf(" Windows EDR Lite\n");
-    printf(" Process Enumeration Milestone\n");
+    printf(" Process Enumeration\n");
     printf("========================================\n\n");
 }
 
@@ -34,7 +34,7 @@ static void print_processes(const ProcessInfo processes[], int process_count)
 
     /*
      * The process monitor collected the data.
-     * This function is only responsible for displaying it.
+     * This function displays it.
      */
     for (i = 0; i < process_count; i++) {
         printf("%-32s %-10lu %-10lu\n",

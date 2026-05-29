@@ -43,7 +43,7 @@ int get_running_processes(ProcessInfo processes[], int max_processes)
     }
 
     /*
-     * This loop copies each Windows process entry into our own beginner-friendly
+     * This loop copies each Windows process entry into a
      * ProcessInfo struct array. The loop stops when the array is full or when
      * Windows reports that there are no more processes.
      */
@@ -52,7 +52,7 @@ int get_running_processes(ProcessInfo processes[], int max_processes)
         processes[process_count].parent_pid = process_entry.th32ParentProcessID;
 
         /*
-         * snprintf safely copies the executable name into exe_name.
+         * snprintf copies the executable name into exe_name.
          * MAX_PATH is the size of the destination buffer.
          */
         snprintf(processes[process_count].exe_name,
@@ -64,8 +64,8 @@ int get_running_processes(ProcessInfo processes[], int max_processes)
     } while (process_count < max_processes && Process32Next(snapshot, &process_entry));
 
     /*
-     * Every successful CreateToolhelp32Snapshot call gives us a handle.
-     * CloseHandle releases it when we are done.
+     * Every successful CreateToolhelp32Snapshot call gives a handle.
+     * CloseHandle releases it when done.
      */
     CloseHandle(snapshot);
 
